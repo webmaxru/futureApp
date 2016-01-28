@@ -1,0 +1,9 @@
+{
+  "firebase": "futureapp2016",
+  "public": "www",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
