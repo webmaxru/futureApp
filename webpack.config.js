@@ -17,7 +17,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.ts$/,
         loader: 'awesome-typescript',
         query: {
           doTypeCheck: false,
@@ -27,7 +27,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.js$/,
+        test: /\.ts$/,
         include: path.resolve('node_modules/angular2'),
         loader: 'strip-sourcemap'
       }
@@ -44,6 +44,6 @@ module.exports = {
       'ionic': 'ionic-framework',
       'web-animations.min': path.normalize('ionic-framework/js/web-animations.min')
     },
-    extensions: ['', '.js']
+    extensions: ['', '.ts', '.js']
   }
 };

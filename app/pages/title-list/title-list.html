@@ -1,0 +1,31 @@
+<ion-navbar *navbar>
+
+  <ion-segment [(ngModel)]="section" (change)="updateTitles()">
+    <ion-segment-button value="contributions">
+      Contributions
+    </ion-segment-button>
+    <ion-segment-button value="interests">
+      Interests
+    </ion-segment-button>
+  </ion-segment>
+
+</ion-navbar>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item *ngFor="#title of titles">
+
+      <button ion-item>
+        <h3>{{title.person}}</h3>
+        <p>
+          {{title.topic}}
+        </p>
+      </button>
+
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

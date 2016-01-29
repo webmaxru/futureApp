@@ -1,0 +1,58 @@
+{
+  "contributions": [
+    {
+      "person": "wizardofjoz",
+      "topic": "Reactive programming in Angular 2"
+    },
+    {
+      "person": "nirkaufman",
+      "topic": "Mastering Services in Angular 1.x"
+    },
+    {
+      "person": "GinesOrtiz",
+      "topic": "Building a modular application with AngularJS 1.x"
+    },
+    {
+      "person": "GinesOrtiz",
+      "topic": "Webstorm workshop"
+    },
+    {
+      "person": "sebawita",
+      "topic": "Introduction to NativeScript"
+    },
+    {
+      "person": "GinesOrtiz",
+      "topic": "Using AngularJS to build a Backoffice"
+    },
+    {
+      "person": "nirkaufman",
+      "topic": "Angular2 workshop - up and running!"
+    },
+    {
+      "person": "sazimi",
+      "topic": "JavaScript quiz"
+    }
+  ],
+  "interests": [
+    {
+      "person": "AlbertoFuente",
+      "topic": "Angular2 Unit Testing"
+    },
+    {
+      "person": "houssem-yahiaoui",
+      "topic": "Talk - Firebase, The why and How-To !"
+    },
+    {
+      "person": "AlbertoFuente",
+      "topic": "How to apply the 'Angular Style Guide' (@johnpapa) on Angular2"
+    },
+    {
+      "person": "johannes-weber",
+      "topic": "Build a basic Angular from scratch"
+    },
+    {
+      "person": "johannes-weber",
+      "topic": "svg and other types of interaction"
+    }
+  ]
+}
