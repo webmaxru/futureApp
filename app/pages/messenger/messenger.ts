@@ -3,10 +3,10 @@ import {Page} from 'ionic/ionic';
 import {FirebaseEventPipe} from '../../firebasepipe/firebasepipe';
 
 @Page({
-  templateUrl: 'build/pages/messager/messager.html',
+  templateUrl: 'build/pages/messenger/messenger.html',
   pipes: [FirebaseEventPipe]
 })
-export class Messager {
+export class Messenger {
 
   firebaseUrl: string;
   postsRef: Firebase;

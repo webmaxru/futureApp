@@ -2,7 +2,7 @@ import {Page} from 'ionic/ionic';
 
 import {TitleList} from '../title-list/title-list';
 import {MessageList} from '../message-list/message-list';
-import {Messager} from '../messager/messager';
+import {Messenger} from '../messenger/messenger';
 
 @Page({
   templateUrl: 'build/pages/tabs/tabs.html'
@@ -10,7 +10,7 @@ import {Messager} from '../messager/messager';
 export class TabsPage {
   constructor() {
     this.tab1Root = TitleList;
-    this.tab2Root = Messager;
+    this.tab2Root = Messenger;
     this.tab3Root = MessageList;
   }
 }

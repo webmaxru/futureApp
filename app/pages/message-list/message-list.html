@@ -6,13 +6,30 @@
 
 <ion-content>
 
-  <ul>
-    <li *ngFor="#post of posts | async">
-      Asked by:
-      {{post.val().name}}
-      Question:
-      {{post.val().message}}
-    </li>
-  </ul>
+  <ion-card *ngFor="#post of posts | async">
+
+    <ion-item>
+      <h2>{{post.val().name}}</h2>
+    </ion-item>
+
+    <ion-card-content>
+      <p>{{post.val().message}}</p>
+    </ion-card-content>
+
+    <ion-item>
+      <button primary clear item-left>
+        <ion-icon name="thumbs-up"></ion-icon>
+        <div>12 Likes</div>
+      </button>
+      <button primary clear item-left>
+        <ion-icon name="text"></ion-icon>
+        <div>4 Comments</div>
+      </button>
+      <ion-note item-right>
+        11h ago
+      </ion-note>
+    </ion-item>
+
+  </ion-card>
 
 </ion-content>

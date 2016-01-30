@@ -1,6 +1,6 @@
 <ion-navbar *navbar>
   <ion-title>
-    Messager
+    Messenger
   </ion-title>
 </ion-navbar>
 
@@ -29,7 +29,7 @@
     <ion-item *ngFor="#post of firebaseUrl | firebaseevent:'child_added'">
       <ion-icon name="quote" item-left></ion-icon>
       <h2>{{post.name}}</h2>
-      <p>{{post.text}}</p>
+      <p>{{post.message}}</p>
     </ion-item>
 
   </ion-list>
